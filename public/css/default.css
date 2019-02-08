@@ -1,0 +1,7 @@
+table tr td:last-child {
+    white-space: nowrap;
+    text-align: center;
+}
+.prices .form-row {
+    margin-bottom: 15px;
+}
