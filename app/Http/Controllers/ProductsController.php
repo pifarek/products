@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Product;
 use App\Price;
-use mysql_xdevapi\Session;
 
 class ProductsController extends Controller
 {
