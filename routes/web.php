@@ -12,4 +12,4 @@
 */
 
 Route::redirect('/', 'products');
-Route::resource('products', 'ProductsController');
+Route::resource('products', 'ProductsController')->except(['show']);
